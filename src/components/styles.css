@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header1 {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bback.png");
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    color: #fabd02;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: flex;
+}
+
+span {
+    color: white;
+}
+
+.btn {
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #fabd02;
+    padding: 15px 40px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    border: 2px solid;
+    color: #fabd02;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.nav {
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.textbody h1 {
+    color: #fabd02;
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.textbody{
+    position: relative;
+}
+
+.textbody p {
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 30px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.routess{
+    position: relative;
+    margin-bottom: 0px;
+}
+.routess td {
+    color: #fabd02;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 30px;
+    word-spacing: 20px;
+    letter-spacing: 1px;
+}
+.routess p {
+    color:white;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 40px;
+    /* margin-bottom: 50px; */
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.tablewa{
+    text-align: center;
+}
+
+.btn1 {
+    margin: 0px 10px;
+    border: 2px solid #fabd02;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+    color: #000;
+    border-radius: 30px;
+    background-color: #fabd02;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    border: 2px solid;
+    color: #fabd02;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn2 {
+    margin: 0px 10px;
+    border: 2px solid #fabd02;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+    color: #fabd02;
+    border-radius: 30px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.btn2:hover {
+    border: 2px solid #fabd02;
+    color: #000;
+    background-color: #fabd02;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.navbar {
+
+    position: absolute;
+    width: 98%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    /* justify-content: space-between; */
+}
+
+.cont1 {
+    height: 90%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bback.png");
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    padding: 80px;
+    min-height: 600px;
+    /* object-fit: fill; */
+}
+
+.heading {
+    color: white;
+}
+
+.ll {
+    color: #fabd02;
+}
+
+.contlog {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bback.png");
+    padding-top: 120px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 600px;
+}
+
+.row {
+    width: 98%;
+}
+
+.contfromto {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bback.png");
+    padding-top: 120px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 600px;
+}
+
+.iconn {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    object-fit: contain;
+}
+
+.cont2 {
+    height: 90%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bback.png");
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    padding-top: 150px;
+    min-height: 600px;
+}
+
+.btn3 {
+    margin: 0px 10px;
+    border: 2px solid #fabd02;
+    padding: 5px 20px;
+    letter-spacing: 1px;
+    color: black;
+    border-radius: 30px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.btn3:hover {
+    border: 2px solid #fabd02;
+    color: #000;
+    background-color: #fabd02;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.t2 {
+    color: white;
+}
+
+.cont3 {
+
+    padding-top: 100px;
+
+
+}
